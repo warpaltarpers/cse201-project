@@ -1,2 +1,2 @@
-# cse201-project
+# Unnamed CSE201 Project
 NAME SUBJECT TO CHANGE - Recipe-sharing website
