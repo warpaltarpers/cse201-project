@@ -14,3 +14,9 @@ Make sure to set Mike Jones as a reviewer!
 
 ## Contributing
 Find the contribution document [here](https://github.com/warpaltarpers/cse201-project/blob/master/CONTRIBUTING.md)
+
+## Authors
+* **Maxwell Walters** - [warpaltarpers](https://github.com/warpaltarpers)
+* **Craig Matherly** - [JustPlainSneaky](https://github.com/JustPlainSneaky)
+* **Sophie McQuain**
+* **Mike Jones**
