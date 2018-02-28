@@ -25,10 +25,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 1. Increase the version numbers in any examples files and the README.md to the new version that this
    Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-2. You must request a review of the pull request from Mr. Jones.
+2. You must request a review of the pull request from Mr. Walters.
 
-**If Mr. Jones accepts your pull request**, it will automatically be merged in.  
-**Otherwise**, Mr. Jones will provide reasoning for not accepting.
+**If Mr. Walters accepts your pull request**, it will automatically be merged in.  
+**Otherwise**, Mr. Walters will provide reasoning for not accepting.
 
 ## Code of Conduct
 

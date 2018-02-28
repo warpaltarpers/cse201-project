@@ -10,7 +10,7 @@ NO! Make sure you're working on a separate branch!
 
 **My code is ready to be reviewed and merged with the master.**  
 Create a pull request [here](https://github.com/warpaltarpers/cse201-project/pulls)
-Make sure to set Mike Jones as a reviewer!
+Make sure to set Maxwell Walters as a reviewer!
 
 **I've finished my work that I was assigned to. What should I do now?**  
 Make sure to [update the Trello board](https://trello.com/b/OFmagSiH/team-board), then check the Trello board/talk to the team for updates
