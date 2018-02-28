@@ -21,5 +21,5 @@ Find the contribution document [here](https://github.com/warpaltarpers/cse201-pr
 ## Authors
 * **Maxwell Walters** - [warpaltarpers](https://github.com/warpaltarpers)
 * **Craig Matherly** - [JustPlainSneaky](https://github.com/JustPlainSneaky)
-* **Sophie McQuain**
-* **Mike Jones**
+* **Mike Jones** - [jonesm15](https://github.com/jonesm15)
+* **Sophie McQuain** - [SophieMcQ](https://github.com/SophieMcQ)
