@@ -19,7 +19,7 @@ Make sure to [update the Trello board](https://trello.com/b/OFmagSiH/team-board)
 Find the contribution document [here](https://github.com/warpaltarpers/cse201-project/blob/master/CONTRIBUTING.md)
 
 ## Authors
-* **Maxwell Walters** - [warpaltarpers](https://github.com/warpaltarpers)
-* **Craig Matherly** - [JustPlainSneaky](https://github.com/JustPlainSneaky)
 * **Mike Jones** - [jonesm15](https://github.com/jonesm15)
+* **Craig Matherly** - [JustPlainSneaky](https://github.com/JustPlainSneaky)
 * **Sophie McQuain** - [SophieMcQ](https://github.com/SophieMcQ)
+* **Maxwell Walters** - [warpaltarpers](https://github.com/warpaltarpers)
