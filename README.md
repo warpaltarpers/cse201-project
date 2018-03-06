@@ -15,9 +15,6 @@ Make sure to set Maxwell Walters as a reviewer!
 **I've finished my work that I was assigned to. What should I do now?**  
 Make sure to [update the Trello board](https://trello.com/b/OFmagSiH/team-board), then check the Trello board/talk to the team for updates
 
-## Contributing
-Find the contribution document [here](https://github.com/warpaltarpers/cse201-project/blob/master/CONTRIBUTING.md)
-
 ## Authors
 * **Mike Jones** - [jonesm15](https://github.com/jonesm15)
 * **Craig Matherly** - [JustPlainSneaky](https://github.com/JustPlainSneaky)
