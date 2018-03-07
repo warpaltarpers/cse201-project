@@ -1,4 +1,4 @@
-# Unnamed CSE201 Project
+# Private Family Cookbook Web App
 NAME SUBJECT TO CHANGE - Recipe-sharing website
 
 ## FAQ
