@@ -1,6 +1,3 @@
-# [TITLE]
-### [DESCRIPTION]
-
 ## What is the issue/bug?
 * [INSERT BUG/ISSUE HERE]
 
