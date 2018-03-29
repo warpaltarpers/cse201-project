@@ -1,4 +1,3 @@
-# [TITLE]
 ### [DESCRIPTION]
 
 ## What has been changed/added?
