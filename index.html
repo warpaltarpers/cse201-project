@@ -33,7 +33,7 @@
 </head>
 
 <body id="page-top">
-
+<?php include ('login/main.php') ?>
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top"
 		id="mainNav">
@@ -52,10 +52,12 @@
 						href="#about">About</a></li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
 						href="#portfolio">Portfolio</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll-trigger"
-						href="#signin">Sign-In</a></li>
+					<!--<li class="nav-item"><a class="nav-link js-scroll-trigger"
+						href="#signin">Sign-In</a></li>-->
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
 						href="#contact">Contact</a></li>
+					<li class="nav-item"><a class="nav-link js-scroll-trigger"
+						href='<?php echo "login/main.php" ?> '>Sign-In/Up</a></li>
 				</ul>
 			</div>
 		</div>
