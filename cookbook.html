@@ -11,6 +11,7 @@
 
 <title>Family Cookbook</title>
 
+<link href="css/quick.css" rel="stylesheet">
 <!-- Bootstrap core CSS -->
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -81,26 +82,27 @@
 				<div class="col-sm-6">
 					<div class="card">
 						<div class="card-body">
+							<img class="card-img-top" src="img/cparm.jpg">
 							<h5 class="card-title">Chicken Parmesan</h5>
 							<h6 class="card-subtitle mb-2 text-muted">23 minutes</h6>
 							<p class="card-text">Serves 4 hungry souls</p>
-							<a href="#" target="_blank" class="card-link">Ingredients & Directions</a>
+							<a data-toggle="modal" data-target="#cparmmod" class="modal-card-link">Ingredients & Directions</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6">
 					<div class="card">
 						<div class="card-body">
+							<img class="card-img-top" src="img/cookies.jpg">
 							<h5 class="card-title">White Chocolate Chip Cranberry Oatmeal Cookies</h5>
 							<h6 class="card-subtitle mb-2 text-muted">30 minutes</h6>
 							<p class="card-text">36 gorgeous and delicious oatmeal cookies!</p>
-							<a href="#" target="_blank" class="card-link">Ingredients & Directions</a>
+							<a data-toggle="modal" data-target="#cookiemod" class="modal-card-link">Ingredients & Directions</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Add Recipe section -->
-			<!-- Modal -->
+			<!-- Add Recipe Modal -->
 			<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
@@ -123,6 +125,93 @@
 			    </div>
 			  </div>
 			</div> -->
+
+			<!-- Chicken Parm Modal -->
+			<div class="modal fade" id="cparmmod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">Chicken Parmesan</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>4 boneless skinless chicken breast halves</li>
+								<li>1/2 cup of italian breadcrumbs</li>
+								<li>1 beaten egg</li>
+								<li>4 tbsp of butter</li>
+								<li>2 cups of spaghetti sauce</li>
+								<li>4 slices of mozzarella cheese</li>
+								<li>1 tbsp grated parmesan cheese</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Pound chicken to flatten</li>
+								<li>Salt and pepper to taste</li>
+								<li>Dip chicken in egg; then in bread crumbs</li>
+								<li>Fry in butter in hot skillet, turning and browning for 10 minutes or until chicken is done</li>
+								<li>Remove from skillet</li>
+								<li>To skillet add spaghetti sauce</li>
+								<li>Heat thoroughly</li>
+								<li>Add chicken</li>
+								<li>Place slices of mozzarella on top of chicken</li>
+								<li>Sprinkle with parmesan</li>
+								<li>Cover and cook until cheese is melted; serve with a side of spaghetti</li>
+							</ol>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+
+			<!-- Cookie Modal -->
+			<div class="modal fade" id="cookiemod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">White Chocolate Chip Cranberry Oatmeal Cookies</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>3/4 cup sugar</li>
+								<li>1/4 cup packed brown sugar</li>
+								<li>1/2 cup softened butter</li>
+								<li>1 large egg</li>
+								<li>1/2 tsp vanilla extract</li>
+								<li>1/2 tsp cinnamon</li>
+								<li>1/2 tsp baking soda</li>
+								<li>1/4 tsp salt</li>
+								<li>1 cup all-purpose flour</li>
+								<li>1 1/2 cup quick-cooking oats</li>
+								<li>3/4 cup dried cranberries</li>
+								<li>6 oz white chocolate chips</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Preheat oven to 375°F</li>
+								<li>In a large bowl using an electric mixer combine the sugar, brown sugar and butter; mix well to cream together</li>
+								<li>Add in egg and vanilla extract and mix until combined</li>
+								<li>Add the cinnamon, baking soda, salt and flour and mix well</li>
+								<li>Fold in the oatmeal, dried cranberries and white chocolate chips- making sure that all ingredients are uniformly distributed</li>
+								<li>Roll dough into 1-inch balls and place 3 inches apart onto a greased cookie sheet and bake at 375° for 10-12 minutes, just until the edges are lightly golden</li>
+								<li>Remove from oven and let cool for 2-3 minutes on the cookie sheet, then transfer cookies to cooling rack</li>
+							</ol>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
