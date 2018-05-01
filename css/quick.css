@@ -1,0 +1,13 @@
+.modal-card-link {
+  text-color: orange;
+}
+
+.modal-card-link:hover {
+  text-color: orange;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.card-img-top {
+  margin-bottom: 15px;
+}
