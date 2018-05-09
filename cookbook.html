@@ -50,6 +50,15 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
 						href="#recipe">Recipes</a></li>
+					<li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          User
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item disabled" href="#">Login</a>
+		          <a class="dropdown-item disabled" href="#">Sign Up</a>
+		        </div>
+	      	</li>
 					<li class="nav-item"><a class="nav-link js-scroll-trigger"
 						href="index.html">Go Back</a></li>
 				</ul>
@@ -76,10 +85,9 @@
 <!-- Recipe View section -->
 	<section class="bg-dark" id="recipe">
 		<div class="container">
-			<!-- <a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Add Recipe</a> -->
 			<!-- Placeholder Recipes -->
 			<div class="card-deck">
-				<div class="col-sm-6">
+				<div class="col-sm-6 cspace">
 					<div class="card">
 						<div class="card-body">
 							<img class="card-img-top" src="img/cparm.jpg">
@@ -90,7 +98,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-6 cspace">
 					<div class="card">
 						<div class="card-body">
 							<img class="card-img-top" src="img/cookies.jpg">
@@ -101,9 +109,58 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-sm-6 cspace">
+					<div class="card">
+						<div class="card-body">
+							<img class="card-img-top" src="img/yodasoda.jpg">
+							<h5 class="card-title">Yoda Soda</h5>
+							<h6 class="card-subtitle mb-2 text-muted">10 minutes</h6>
+							<p class="card-text">Serves 1 young Padawan</p>
+							<a data-toggle="modal" data-target="#yodasoda" class="modal-card-link">Ingredients & Directions</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 cspace">
+					<div class="card">
+						<div class="card-body">
+							<img class="card-img-top" src="img/ccpasta.jpg">
+							<h5 class="card-title">Creamy Cajun Chicken Pasta</h5>
+							<h6 class="card-subtitle mb-2 text-muted">25 minutes</h6>
+							<p class="card-text">A hearty dinner for two</p>
+							<a data-toggle="modal" data-target="#chickpasta" class="modal-card-link">Ingredients & Directions</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 cspace">
+					<div class="card">
+						<div class="card-body">
+							<img class="card-img-top" src="img/cbcasserole.jpg">
+							<h5 class="card-title">Cowboy Breakfast Casserole</h5>
+							<h6 class="card-subtitle mb-2 text-muted">55 minutes</h6>
+							<p class="card-text">Serves 6-8 vaquero hambrientos</p>
+							<a data-toggle="modal" data-target="#vaquero" class="modal-card-link">Ingredients & Directions</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 cspace">
+					<div class="card">
+						<div class="card-body">
+							<img class="card-img-top" src="img/empanadas.jpg">
+							<h5 class="card-title">Empanadas</h5>
+							<h6 class="card-subtitle mb-2 text-muted">1 hour and 55 minutes</h6>
+							<p class="card-text">15-20 gorgeous Argentinean empanadas</p>
+							<a data-toggle="modal" data-target="#empanadas" class="modal-card-link">Ingredients & Directions</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mx-auto">
+				<div class="col">
+					<a class="btn btn-primary btn-xl js-scroll-trigger" data-toggle="modal" data-target="#exampleModal">Add Recipe</a>
+				</div>
 			</div>
 			<!-- Add Recipe Modal -->
-			<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			  <div class="modal-dialog" role="document">
 			    <div class="modal-content">
 			      <div class="modal-header">
@@ -113,18 +170,14 @@
 			        </button>
 			      </div>
 			      <div class="modal-body">
-							<input type="text" placeholder="Recipe name" id="newrec-name">
-							<textarea type="text" placeholder="List ingredients" id="newrec-ing" aria-describedby="inghelp" rows="3">
-							<small id="inghelp">Separate ingredients by commas</small>
-							<textarea type="text" placeholder="List directions" id="newrec-dir" rows="3">
+							<p>Functionality coming soon! Browse our current recipes while you wait!</p>
 			      </div>
 			      <div class="modal-footer">
 			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        <button type="button" class="btn btn-primary" data-dismiss="modal">Save Recipe</button>
 			      </div>
 			    </div>
 			  </div>
-			</div> -->
+			</div>
 
 			<!-- Chicken Parm Modal -->
 			<div class="modal fade" id="cparmmod" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -204,6 +257,169 @@
 								<li>Fold in the oatmeal, dried cranberries and white chocolate chips- making sure that all ingredients are uniformly distributed</li>
 								<li>Roll dough into 1-inch balls and place 3 inches apart onto a greased cookie sheet and bake at 375° for 10-12 minutes, just until the edges are lightly golden</li>
 								<li>Remove from oven and let cool for 2-3 minutes on the cookie sheet, then transfer cookies to cooling rack</li>
+							</ol>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Yoda Soda Modal -->
+			<div class="modal fade" id="yodasoda" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Yoda Soda</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>1/4 cup lime juice</li>
+								<li>3 tbsp sugar</li>
+								<li>1 cup sparkling water</li>
+								<li>1 scoop lime sorbet</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Juice limes to obtain 1/4 cup lime juice (or use 1/4 prepared juice!)</li>
+								<li>Combine lime juice and sugar--stir to dissolve sugar</li>
+								<li>Add sparkling water and stir till mixed</li>
+								<li>Taste and add more sugar if desired</li>
+								<li>Place sherbet in a tall glass and pour lime mixture over top</li>
+							</ol>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Chicken Pasta Modal -->
+			<div class="modal fade" id="chickpasta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Creamy Cajun Chicken Pasta</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>2 boneless skinless chicken breast halves</li>
+								<li>4 ounces linguine</li>
+								<li>2 tsp cajun seasoning</li>
+								<li>2 tbsp butter</li>
+								<li>1 thinly sliced green onion</li>
+								<li>1/2 cup heavy whipping cream</li>
+								<li>2 tbsp chopped sun-dried tomatoes</li>
+								<li>1/4 tsp salt</li>
+								<li>1/4 tsp dried basil</li>
+								<li>1/8 tsp ground black pepper</li>
+								<li>1/8 tsp garlic powder</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Place chicken and Cajun seasoning in a bowl and toss to coat</li>
+								<li>In a large skillet over medium heat, sauté chicken in butter or margarine until chicken is tender, about 5 to 7 minutes</li>
+								<li>Reduce heat add green onion, heavy cream, tomatoes, basil, salt, garlic powder, black pepper and heat through</li>
+								<li>Pour over hot linguine</li>
+							</ol>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Cowboy Casserole Modal -->
+			<div class="modal fade" id="vaquero" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Cowboy Breakfast Casserole</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>12 slices of bread</li>
+								<li>2 cups cheddar cheese/16 slices American cheese</li>
+								<li>1 lb chopped ham (any breakfast meat could work)</li>
+								<li>2 cups milk</li>
+								<li>6 large eggs</li>
+								<li>1 tsp ground mustard</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Line a 9x13 greased pan with 8 slices of bread and top with half of the cheese</li>
+								<li>Sprinkle meat over cheese. You could also use any other type of meat you prefer. Turkey bacon cooked and crumbled is good too!</li>
+								<li>Mix eggs, milk or sour cream or yogurt, ground mustard, and salt and pepper in a bowl until well blended and pour over cheese</li>
+								<li>Top with the rest of the cheese and 8 more slices of bread, pressing down so the egg bubbles up and moistens it a little</li>
+								<li>Spray top of bread with butter flavored cooking spray or spread with a little butter covering the whole surface of the bread</li>
+								<li>Cover and refrigerate overnight. Bake at 350 F for 45 minutes to 1 hour or until the middle of casserole looks cooked. Knife inserted in middle will come out with melted cheese but not with ‘wet’ egg when done</li>
+							</ol>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Empanadas Modal -->
+			<div class="modal fade" id="empanadas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Empanadas</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<h6>Ingredients</h6>
+							<ul>
+								<li>2 cup all-purpose flour</li>
+								<li>1-2 tsp salt</li>
+								<li>3/4 cup cold margarine</li>
+								<li>2 eggs</li>
+								<li>2/3 cup cold water</li>
+								<li>2 tbsp white vinegar<li>
+								<li>1 lb ground beef</li>
+								<li>4 hard-boiled eggs</li>
+								<li>1 cup stuffed green olive</li>
+								<li>1 large onion</li>
+								<li>3 garlic cloves</li>
+								<li>2-3 tbsp ground cumin powder</li>
+								<li>1 tsp chili pepper flakes</li>
+							</ul>
+							<h6>Directions</h6>
+							<ol>
+								<li>Sift the flour, mix the sifted flour and salt in a large bowl</li>
+								<li>Mix in the solid margarine or butter with your fingers, (best to cross cut with two knives). The flour should have an even, coarse texture, with the margarine lumps no larger than a pea</li>
+								<li>Beat together the water, eggs, and vinegar in a bowl. Slowly mix into the flour mixture, until you have the desired consistency (it should not be too sticky, but still malleable)</li>
+								<li>Place the mixture on a floured surface. Knead with the heel of your hand to bring the dough together</li>
+								<li>Cover the dough and allow to sit in a cool place for at least an hour</li>
+								<li>Roll out the dough until it is about 1/8 of an inch (0.3 cm) thick. Cut into circles about 4-6 inches (10 - 15 cm) in diameter and lightly flour them</li>
+								<li>Heat some oil in a large saucepan. Mince the onions and garlic, and add to the pan. Cook until the onions become translucent</li>
+								<li>Add the ground meat. Break it up with with a spoon and cook, stirring until lightly browned. Drain off fat</li>
+								<li>Mix in the cumin, pepper flakes, and sugar. Adjust to taste</li>
+								<li>Chop the hard boiled eggs and halve the stuffed olives. Carefully mix into the meat mixture. Add salt and pepper to taste</li>
+								<li>Preheat the oven to 375ºF/200ºC</li>
+								<li>Stuff the empanada dough wrappers. Place 2-3 tablespoons of the filling in the center of each wrapper. Dampen the outer perimeter of the dough</li>
+								<li>Fold over, forming a semicircle. Pinch a corner of the dough, and then fold that section onto itself. Pinch and pull out another 1/2-inch (1.2 cm) section and fold over, so that it slightly overlaps the first piece. Repeat along the length of the folded side, until you create a braided or twisted seal</li>
+								<li>Place the folded empanadas on a greased cookie sheet. Bake 15-20 minutes, or until golden brown</li>
 							</ol>
 						</div>
 						<div class="modal-footer">
